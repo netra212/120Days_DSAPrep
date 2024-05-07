@@ -31,6 +31,18 @@ Node* createLinkedList(int arr[], int index, int arrsize){
     return temp;
 }
 
+
+// Inserting Node at the begining of the LinkedList using Recursion.  
+Node* createLinkedListInsertAtBegin(int arr[], int index, int arrsize, Node *previousAddress){
+    if(index == arrsize){
+        return NULL;
+    }
+    Node *temp = new Node(arr[index]);
+    temp->next = previousAddress;
+    return createLinkedListInsertAtBegin(arr, index+1, arrsize, previousAddress);
+}
+
+
 int main(){
 
     Node *head = NULL; // Dynamically creating an Object for the LinkedList. 
