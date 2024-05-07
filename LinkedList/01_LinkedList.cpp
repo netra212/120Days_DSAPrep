@@ -20,6 +20,8 @@ class Node{
 };
 
 // Creating an LinkedList with Recursion. 
+// During the recursive call, stack is used. 
+// Space complexity: constant. 
 Node* createLinkedList(int arr[], int index, int arrsize){
     if(index == arrsize){
         return NULL;
@@ -78,4 +80,7 @@ int main(){
         cout << temp -> data << endl;
         temp = temp -> next;
     }
+
+    // Calling an function of creating an LinkedList with recursion. 
+    head = createLinkedList(arr, 0, 6);
 }
