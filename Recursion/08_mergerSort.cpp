@@ -14,7 +14,9 @@ void mergeSort(int arr[], int start, int end){
         return;
     }
     int mid = start + (end-start)/2;
+    // left side array.
     mergeSort(arr, start, mid);
+    // right side array. 
     mergeSort(arr, mid+1, end);
     merge(arr, start, mid, end);
 }
@@ -44,6 +46,7 @@ void merge(int arr[], int start, int mid, int end){
         right++, index++;
     }
 
+    // Put these elements into an original arrays. 
     index = 0;
     while(start<=end){
         arr[start] = temp[index];
@@ -52,5 +55,6 @@ void merge(int arr[], int start, int mid, int end){
 }
 
 int main(){
+    int arr[] = {6,2,1,4,2,6,4,2};
 
 }

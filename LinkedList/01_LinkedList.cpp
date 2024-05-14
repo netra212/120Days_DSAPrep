@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/*
- * LinkedList:
- * 
- */
-
 // By default class member are private. 
 class Node{
     public:
@@ -30,7 +25,6 @@ Node* createLinkedList(int arr[], int index, int arrsize){
     temp->next = createLinkedList(arr, index+1, arrsize);
     return temp;
 }
-
 
 // Inserting Node at the begining of the LinkedList using Recursion.  
 Node* createLinkedListInsertAtBegin(int arr[], int index, int arrsize, Node *previousAddress){

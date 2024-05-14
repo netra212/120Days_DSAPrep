@@ -69,6 +69,15 @@
         "__node_handle": "cpp",
         "__split_buffer": "cpp",
         "list": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "__tree": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "map": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "valarray": "cpp",
+        "format": "cpp"
     }
 }
