@@ -58,9 +58,9 @@ void generateParenthesis(int size, int left, int right, vector<string>&parenthes
         tempParenthesis.push_back(')');
         generateParenthesis(size, left, right+1, parenthesisAns, tempParenthesis);
         tempParenthesis.pop_back();
+
     } 
 }
-
 
 
 int main(){

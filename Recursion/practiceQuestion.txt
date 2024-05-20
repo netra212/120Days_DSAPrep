@@ -1,0 +1,263 @@
+Easy Recursion Questions
+1.  Factorial of a number: Write a function that takes a positive integer 𝑛 n and returns 𝑛! n! (n factorial).
+
+2. Fibonacci sequence: Write a function to return the  𝑛 n-th number in the Fibonacci sequence.
+
+3. Sum of first N natural numbers: Write a function that returns the sum of the first 𝑛 n natural numbers.
+
+Reverse a string: Write a function that takes a string and returns its reverse.
+
+Palindrome check: Write a function that checks if a string is a palindrome (reads the same forward and backward).
+
+Sum of digits of a number: Write a function that returns the sum of the digits of a given number.
+
+Count digits of a number: Write a function that returns the count of digits in a given number.
+
+Power of a number (x^n): Write a function that computes 
+𝑥
+x raised to the power 
+𝑛
+n (i.e., 
+𝑥
+𝑛
+x 
+n
+ ).
+
+Greatest Common Divisor (GCD) using Euclidean algorithm: Write a function to find the GCD of two numbers using recursion.
+
+Print all numbers from 1 to N: Write a function to print all numbers from 1 to 
+𝑛
+n.
+
+Print all numbers from N to 1: Write a function to print all numbers from 
+𝑛
+n to 1.
+
+Binary search: Write a recursive function to implement binary search on a sorted array.
+
+Count occurrences of a character in a string: Write a function to count the number of times a character appears in a string.
+
+Print all subsets of a set: Write a function to print all subsets of a given set.
+
+Find the length of a string: Write a recursive function to find the length of a string.
+
+Print the nth Fibonacci number: Write a function to print the 
+𝑛
+n-th Fibonacci number.
+
+Check if a number is prime: Write a function to check if a number is prime.
+
+Print all permutations of a string: Write a function to print all permutations of a given string.
+
+Print all combinations of a string: Write a function to print all combinations of characters in a string.
+
+Sum of all elements in an array: Write a function to find the sum of all elements in an array.
+
+Find the maximum element in an array: Write a function to find the maximum element in an array.
+
+Find the minimum element in an array: Write a function to find the minimum element in an array.
+
+Print the powerset of a set: Write a function to print the powerset (all subsets) of a set.
+
+Convert decimal to binary: Write a function to convert a decimal number to its binary representation.
+
+Tower of Hanoi: Write a function to solve the Tower of Hanoi puzzle for 
+𝑛
+n disks.
+
+Merge two sorted arrays: Write a function to merge two sorted arrays into a single sorted array.
+
+Check if a string is a valid palindrome ignoring non-alphanumeric characters: Write a function to check if a string is a palindrome, ignoring spaces and punctuation.
+
+Generate all balanced parentheses: Write a function to generate all combinations of 
+𝑛
+n pairs of balanced parentheses.
+
+Invert a binary tree: Write a function to invert a binary tree.
+
+Flatten a nested list: Write a function to flatten a nested list.
+
+Calculate the product of two numbers: Write a recursive function to multiply two numbers.
+
+Find the nth triangular number: Write a function to find the 
+𝑛
+n-th triangular number.
+
+Print the elements of a linked list in reverse order: Write a function to print the elements of a linked list in reverse order.
+
+Calculate the sum of squares of first N natural numbers: Write a function to calculate the sum of squares of the first 
+𝑛
+n natural numbers.
+
+Check if a number is a power of 2: Write a function to check if a number is a power of 2.
+
+Print all nodes of a binary tree in pre-order: Write a function to print all nodes of a binary tree in pre-order traversal.
+
+Print all nodes of a binary tree in in-order: Write a function to print all nodes of a binary tree in in-order traversal.
+
+Print all nodes of a binary tree in post-order: Write a function to print all nodes of a binary tree in post-order traversal.
+
+Find the depth of a binary tree: Write a function to find the depth (or height) of a binary tree.
+
+Calculate the number of ways to climb N stairs (1 or 2 steps at a time): Write a function to calculate the number of ways to climb 
+𝑛
+n stairs if you can take 1 or 2 steps at a time.
+
+Remove duplicates from a sorted array: Write a function to remove duplicates from a sorted array.
+
+Print all possible strings of length k from a set of characters: Write a function to generate all possible strings of length 
+𝑘
+k from a set of characters.
+
+Compute the binomial coefficient (n choose k): Write a function to compute the binomial coefficient 
+𝐶
+(
+𝑛
+,
+𝑘
+)
+C(n,k).
+
+Find the sum of first N even numbers: Write a function to find the sum of the first 
+𝑛
+n even numbers.
+
+Find the sum of first N odd numbers: Write a function to find the sum of the first 
+𝑛
+n odd numbers.
+
+Find the product of digits of a number: Write a function to find the product of the digits of a given number.
+
+Compute the power of a number using divide and conquer (x^n): Write a function to compute 
+𝑥
+x raised to the power 
+𝑛
+n using the divide and conquer method.
+
+Find the nth Catalan number: Write a function to find the 
+𝑛
+n-th Catalan number.
+
+Generate all anagrams of a string: Write a function to generate all anagrams of a given string.
+
+Find the maximum sum path in a triangle: Write a function to find the maximum sum path from the top to the bottom of a triangle of numbers.
+
+Medium Recursion Questions
+N-Queens problem: Write a function to solve the N-Queens problem and print all possible arrangements.
+
+Sudoku solver: Write a function to solve a given Sudoku puzzle.
+
+Word break problem: Write a function to determine if a string can be segmented into a space-separated sequence of dictionary words.
+
+Generate all palindromic partitions of a string: Write a function to generate all possible palindromic partitions of a given string.
+
+Count number of ways to partition a set into k subsets: Write a function to count the number of ways to partition a set into 
+𝑘
+k subsets.
+
+Find the longest path in a matrix with given constraints: Write a function to find the longest path in a matrix where movement is restricted by certain constraints (e.g., move only to cells with higher values).
+
+Find all possible combinations of k numbers that add up to a number N: Write a function to find all possible combinations of 
+𝑘
+k numbers that add up to 
+𝑛
+n.
+
+Print all possible expressions that evaluate to a target using given numbers: Write a function to print all possible expressions that can be formed using a given set of numbers and operators that evaluate to a target value.
+
+Check if a given binary tree is balanced: Write a function to check if a given binary tree is height-balanced.
+
+Find all unique subsets of a set: Write a function to find all unique subsets of a given set.
+
+Decode ways (count all possible decodings of a given digit sequence): Write a function to count all possible decodings of a given digit sequence where '1' corresponds to 'A', '2' to 'B', and so on up to '26' corresponding to 'Z'.
+
+Calculate the edit distance between two strings: Write a function to calculate the minimum number of edits (insertions, deletions, or substitutions) required to transform one string into another.
+
+Print all root-to-leaf paths in a binary tree: Write a function to print all root-to-leaf paths in a binary tree.
+
+Word search in a grid: Write a function to find if a given word exists in a grid of characters by moving horizontally, vertically, or diagonally.
+
+Generate all combinations of k numbers from 1 to N: Write a function to generate all combinations of 
+𝑘
+k numbers chosen from 1 to 
+𝑁
+N.
+
+Subset sum problem: Write a function to determine if there is a subset of the given set with a sum equal to a given target.
+
+Partition problem: Write a function to determine if a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
+
+Find all permutations of an array: Write a function to find all permutations of a given array of integers.
+
+Print all paths from the top-left to the bottom-right corner of a grid: Write a function to print all possible paths from the top-left to the bottom-right corner of a grid.
+
+Maximum product subarray: Write a function to find the contiguous subarray within an array that has the largest product.
+
+Generate all valid IP addresses from a given string: Write a function to generate all valid IP addresses from a given string of digits.
+
+Find all subsequences of a string: Write a function to find all subsequences of a given string.
+
+Count number of paths in a matrix with given constraints: Write a function to count the number of paths from the top-left to the bottom-right corner of a matrix where movement is restricted by certain constraints.
+
+Generate all binary strings of length N: Write a function to generate all binary strings of length 
+𝑁
+N.
+
+Print all palindromic substrings of a string: Write a function to print all palindromic substrings of a given string.
+
+Find all k-sum paths in a binary tree: Write a function to find all paths in a binary tree that sum to a given value 
+𝑘
+k.
+
+Find all combinations of factors of a given number: Write a function to find all unique combinations of factors (excluding 1) of a given number.
+
+Generate all valid configurations of N pairs of parentheses: Write a function to generate all valid configurations of 
+𝑁
+N pairs of parentheses.
+
+Minimum cost path in a grid: Write a function to find the minimum cost path from the top-left to the bottom-right corner of a grid, given a cost matrix.
+
+Print all possible words from a phone number: Write a function to print all possible words that can be formed from a given phone number, considering the mapping of digits to letters on a telephone keypad.
+
+Find all increasing subsequences of a given array: Write a function to find all increasing subsequences of a given array.
+
+Find all palindromic subsequences of a string: Write a function to find all palindromic subsequences of a given string.
+
+Print all combinations of words from a list of lists: Write a function to print all combinations of words from a list of lists of words.
+
+Solve the coin change problem: Write a function to find the number of ways to make change for a given amount using a set of denominations.
+
+Find all Hamiltonian paths in a graph: Write a function to find all Hamiltonian paths (paths that visit each vertex exactly once) in a given graph.
+
+Count number of islands in a grid: Write a function to count the number of islands in a given grid where '1' represents land and '0' represents water.
+
+Find all topological sorts of a directed acyclic graph: Write a function to find all topological sorts of a given directed acyclic graph (DAG).
+
+Generate all permutations of a multiset: Write a function to generate all permutations of a given multiset (a set that allows duplicate elements).
+
+Find the longest common subsequence of two strings: Write a function to find the longest common subsequence of two given strings.
+
+Generate all valid words from a Boggle board: Write a function to generate all valid words from a Boggle board, considering the dictionary of valid words.
+
+Find all paths from a source to a destination in a graph: Write a function to find all paths from a given source to a given destination in a graph.
+
+Count number of distinct subsequences of a string: Write a function to count the number of distinct subsequences of a given string.
+
+Generate all unique partitions of a number: Write a function to generate all unique partitions of a given number.
+
+Find all subsequences of an array that sum to a given value: Write a function to find all subsequences of a given array that sum to a given value.
+
+Generate all strings from a given character set of length N: Write a function to generate all strings of length 
+𝑁
+N from a given character set.
+
+Find all possible palindromic partitions of a string: Write a function to find all possible palindromic partitions of a given string.
+
+Generate all possible palindromic substrings of a string: Write a function to generate all possible palindromic substrings of a given string.
+
+Find all binary strings that can be made by flipping one bit: Write a function to find all binary strings that can be made by flipping exactly one bit of a given binary string.
+
+Find all sequences of operations to convert one string to another: Write a function to find all sequences of operations (insert, delete, replace) to convert one string to another.
+
+Find the longest path in a tree: Write a function to find the longest path in a given tree.
