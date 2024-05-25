@@ -15,15 +15,15 @@ void findNBitBinary(int num, vector<string>&ans, string &temp, int zero, int one
         return;
     }
 
-    if(zero < one){
+    temp.push_back('1');
+    findNBitBinary(num, ans, temp, zero, one+1);
+    temp.pop_back();
+
+    if(zero <= one){
         temp.push_back('0');
         findNBitBinary(num, ans, temp, zero+1, one);
         temp.pop_back();
     }
-
-    temp.push_back('1');
-    findNBitBinary(num, ans, temp, zero, one+1);
-    temp.pop_back();
     
 }
 
