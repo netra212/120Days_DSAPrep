@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// Mastering the arrays with these problems...
+
 /*
  * search an element in an array.
  */
